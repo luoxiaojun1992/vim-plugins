@@ -12,5 +12,7 @@ print "Contents: {0}".format(cur_buf[-1])
 
 print vim.current.line
 
+vim.command("set nu")
+
 EOF
 endfunction
