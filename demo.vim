@@ -10,5 +10,7 @@ cur_buf = vim.current.buffer
 print "Lines: {0}".format(len(cur_buf))
 print "Contents: {0}".format(cur_buf[-1])
 
+print vim.current.line
+
 EOF
 endfunction
